@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# This script will compare the current user settings to the new ones
+# passed in via Environment variables.  If it is a new value,
+# it will update it.  If it is an old value, it will do nothing.
+# If the file is missing, it will copy the config over.
